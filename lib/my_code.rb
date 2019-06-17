@@ -5,6 +5,7 @@ def map_to_negativize(source_array)
   negative_array << source_array[counter] * -1
   counter += 1
   end
+  negative_array
 end
 
 def map_to_no_change(source_array)
